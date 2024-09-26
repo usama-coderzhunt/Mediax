@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer components {
+  .hide-date-icon::-webkit-calendar-picker-indicator,
+  .hide-time-icon::-webkit-calendar-picker-indicator,
+  .hide-date-time-icon::-webkit-calendar-picker-indicator {
+    @apply hidden;
+  }
+
+  .hide-time-icon::-webkit-time-picker-indicator,
+  .hide-date-time-icon::-webkit-time-picker-indicator {
+    @apply hidden;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  * {
+    @apply scroll-smooth
+  }
+
+  :root {
+    --radius: 0.5rem;
+  }
+  .heading1 {
+    @apply text-[74px] leading-[84px];
+  }
+  .heading2 {
+    @apply text-[64px] leading-[74px];
+  }
+  .heading3 {
+    @apply text-[48px] leading-[58px];
+  }
+  .heading4 {
+    @apply text-[36px] leading-[46px];
+  }
+  .heading5 {
+    @apply text-[30px] leading-10;
+  }
+  .heading6 {
+    @apply text-[24px] leading-[34px];
+  }
+  .subtitle1 {
+    @apply text-[20px] leading-[30px];
+  }
+  .subtitle2 {
+    @apply text-[18px] leading-[28px];
+  }
+  .subtitle3 {
+    @apply text-[16px] leading-[26px];
+  }
+  .subtitle4 {
+    @apply text-[14px] leading-[24px];
+  }
+  .flex__center {
+    @apply flex justify-center items-center;
+  }
+  .innerContainer {
+    @apply w-full max-w-[1224px] mx-auto;
+  }
+  .appointmentContainer {
+    @apply w-full max-w-[1284px] mx-auto;
+  }
+  .outerContainer {
+    @apply w-full max-w-[1920px] px-6 lg:px-[50px] mx-auto;
+  }
+  .smooth__hidden {
+    @apply absolute top-0 left-0 pointer-events-none opacity-0;
+  }
+  .smooth__show {
+    @apply relative top-0 left-0 pointer-events-auto opacity-100;
+  }
+  .urbanist {
+    @apply font-[var(--font-urbanist)];
+  }
+  .dmSans {
+    @apply font-[var(--font-dm_sans)];
+  }
+  .outfit {
+    @apply font-[var(--font-outfit)];
+  }
+  .font_14_400 {
+    @apply text-sm font-normal;
+  }
+  .font_14_700 {
+    @apply text-sm font-bold;
+  }
+  .font_16_400 {
+    @apply text-[16px] font-normal;
+  }
+  .font_16_500 {
+    @apply text-[16px] font-medium;
+  }
+  .font_16_700 {
+    @apply text-[16px] font-bold;
+  }
+  .font_18_500 {
+    @apply text-[18px] font-medium;
+  }
+  .font_18_600 {
+    @apply text-[18px] font-semibold;
+  }
+  .font_20_700 {
+    @apply text-[20px] font-bold;
+  }
+  .font_24_500 {
+    @apply text-[24px] font-medium;
+  }
+  .font_24_700 {
+    @apply text-[24px] font-bold;
+  }
+  .font_30_700 {
+    @apply text-[30px] font-bold;
+  }
+  .font_36_700 {
+    @apply text-[36px] font-bold;
+  }
+  .font_48_700 {
+    @apply text-[48px] font-bold;
+  }
+  .font_64_700 {
+    @apply text-[64px] font-bold;
+  }
+  .font_84_800 {
+    @apply text-[84px] font-[800];
+  }
+}
