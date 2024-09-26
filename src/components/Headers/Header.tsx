@@ -89,11 +89,11 @@ const NavList: { title: string; link: string }[] = [
   },
   {
     title: "ABOUT US",
-    link: "#about-us",
+    link: "/#about-us",
   },
   {
     title: "SERVICES",
-    link: "/services/patient-scheduling",
+    link: "/#services/patient-scheduling",
   },
   // {
   //   title: "PAGES +",
@@ -105,7 +105,7 @@ const NavList: { title: string; link: string }[] = [
   // },
   {
     title: "CONTACT US",
-    link: "#contact",
+    link: "/#contact",
   },
 ];
 

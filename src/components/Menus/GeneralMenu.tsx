@@ -23,7 +23,7 @@ export function GeneralMenu({
 }: Props) {
   return (
     <Fragment>
-      <div className={twMerge('inline 2xl:hidden', className)} onClick={handleToggle}>
+      <div className={twMerge('inline lg:hidden', className)} onClick={handleToggle}>
         {trigger}
       </div>
       {open && (
