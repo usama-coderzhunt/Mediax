@@ -48,7 +48,7 @@ export function HeroSection({}: Props) {
   return (
     <>
       <SectionWrapper
-        className="h-[1560px] md:h-[1159px] z-[5] sm:p-[50px]"
+        className="h-[1160px] md:h-[1159px] z-[5] sm:p-[50px]"
         containerBgProps={
           <>
             <Image
