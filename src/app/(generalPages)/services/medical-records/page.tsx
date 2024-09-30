@@ -20,7 +20,7 @@ export default function page({}: Props) {
         Medical Records Management Services
       </h3>
       <p className="mt-10 font-urbanist font_16_400 text-[#788094]">
-        At Mediax, we offer comprehensive Medical Records Management solutions
+        At Novacures, we offer comprehensive Medical Records Management solutions
         designed to streamline the documentation process, ensuring that
         healthcare providers can easily access, update, and manage patient
         records securely and efficiently. We help you maintain compliance with

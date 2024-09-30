@@ -15,7 +15,7 @@ const page = (props: Props) => {
           className="!mx-auto"
           title="our services"
           heading={{
-            title: "Our Mediax Specialties Technical Service",
+            title: "Our Novacures Specialties Technical Service",
             className: "w-full max-w-[47rem] !text-center",
           }}
         />

@@ -49,8 +49,8 @@ const contacts: {
   {
     icon: Email,
     label: "Email",
-    value: "info@mediax.com",
-    link: "mailto:info@mediax.com",
+    value: "info@movacures.com",
+    link: "mailto:info@movacures.com",
   },
 ];
 
@@ -84,16 +84,16 @@ const socialLinks: SocialIconType[] = [
 
 const NavList: { title: string; link: string }[] = [
   {
-    title: "HOME +",
+    title: "HOME",
     link: "/",
   },
   {
     title: "ABOUT US",
-    link: "#about-us",
+    link: "/#about-us",
   },
   {
-    title: "SERVICES +",
-    link: "/services/patient-scheduling",
+    title: "SERVICES",
+    link: "/#services/patient-scheduling",
   },
   // {
   //   title: "PAGES +",
@@ -105,7 +105,7 @@ const NavList: { title: string; link: string }[] = [
   // },
   {
     title: "CONTACT US",
-    link: "#contact",
+    link: "/#contact",
   },
 ];
 

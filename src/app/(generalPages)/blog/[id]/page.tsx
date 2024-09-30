@@ -6,9 +6,9 @@ import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
 
-export default function BlogDetails({ params }) {
+export default function BlogDetails({ params }:any) {
     const { id } = params; // Extract the `id` from `params`
-    const [dynamicData, setDynamicData] = useState(null);
+    const [dynamicData, setDynamicData] = useState<any>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

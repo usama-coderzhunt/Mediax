@@ -58,7 +58,7 @@ export default function page({}: Props) {
         Patient Scheduling & Registration
       </h3>
       <p className="mt-10 font-urbanist font_16_400 text-[#788094]">
-        At Mediax, we understand that managing patient appointments efficiently
+        At Novacures, we understand that managing patient appointments efficiently
         is the backbone of any healthcare practice. Our Patient Scheduling &
         Registration service ensures that your practice can offer a seamless
         experience for both patients and staff, reducing wait times and

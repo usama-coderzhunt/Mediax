@@ -59,7 +59,7 @@ export default function page({}: Props) {
         Medical Billing Services
       </h3>
       <p className="mt-10 font-urbanist font_16_400 text-[#788094]">
-        At Mediax, we specialize in providing comprehensive medical billing
+        At Novacures, we specialize in providing comprehensive medical billing
         services that ensure accuracy, efficiency, and maximum reimbursements.
         Our team of certified billing experts works with healthcare providers to
         handle the entire billing process, from claim submission to payment
