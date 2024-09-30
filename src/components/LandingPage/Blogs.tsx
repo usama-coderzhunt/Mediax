@@ -69,11 +69,11 @@ export function Blogs({}: Props) {
             }}
           />
         </div>
-        <Link href='/blog' className='rounded-full my-auto'>
+        {/* <Link href='/blog' className='rounded-full my-auto'>
           <Button className='font-dm_sans font_14_700 h-10 rounded-full w-[192px]'>
             View All Posts
           </Button>
-        </Link>
+        </Link> */}
       </div>
       <div className='grid grid-col-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-14'>
         {dynamicBlogsData.map((i:any) => (
