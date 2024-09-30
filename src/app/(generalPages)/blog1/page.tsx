@@ -3,8 +3,8 @@
 import { services_image01 } from '@/assets'
 import { BlogPost, BlogPostType } from '@/components/Blogs'
 import { CustomPagination } from '@/components/common'
-import { useState } from 'react'
-
+import { useEffect, useState } from 'react'
+import axios from "axios";
 type Props = {}
 
 const data: BlogPostType[] = [
@@ -69,6 +69,26 @@ const totalItems: number = data.length
 export default function Page({}: Props) {
   const [currentPage, setCurrentPage] = useState<number>(1)
 
+  const [dynamicBlogsData, setDynamicBlogsData] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const response = await axios.post(
+          "https://api.blog.coderzhunt.com/Blogs/getWebsiteBlog",
+          { domainId: 28 }
+        );
+        setDynamicBlogsData(response.data?.result);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    getData();
+  }, []);
+
   function handlePrevious() {
     setCurrentPage(prev => (prev === 1 ? prev : prev - 1))
   }
@@ -83,7 +103,7 @@ export default function Page({}: Props) {
   return (
     <>
       <div className='flex w-full flex-col gap-10'>
-        {data.map(blog => {
+        {dynamicBlogsData.map(blog => {
           return <BlogPost key={blog.title} {...blog} />
         })}
       </div>

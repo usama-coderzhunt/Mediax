@@ -12,7 +12,7 @@ interface Props {
 
 const NavList: { title: string; link: string }[] = [
   {
-    title: 'HOME',
+    title: 'HOME +',
     link: '/'
   },
   {
@@ -20,7 +20,7 @@ const NavList: { title: string; link: string }[] = [
     link: '/about'
   },
   {
-    title: 'SERVICES',
+    title: 'SERVICES +',
     link: '/services'
   },
   {

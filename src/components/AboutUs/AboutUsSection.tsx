@@ -141,7 +141,8 @@ export const AboutUsSection = (props: Props) => {
               </div>
               <div className="flex__center flex-col p-10">
                 <p className="font_64_700 leading-[52px]">
-                  <span className="text-titleColor">10</span>
+                  <span className="text-titleColor">20</span>
+                  <span className="text-themePrimary">+</span>
                 </p>
                 <p className="font-urbanist font_16_400 text-[#788094] text-center whitespace-nowrap">
                   Industry Awards Won

@@ -39,7 +39,7 @@ const data: Feature[] = [
   },
   {
     icon: customercare,
-    title: "Ongoing Enhanced Support",
+    title: "Ongoing Support",
     desc: "Our team is available round the clock to address your billing inquiries and support your practice’s financial health",
   },
 ];
@@ -48,7 +48,7 @@ export function HeroSection({}: Props) {
   return (
     <>
       <SectionWrapper
-        className="h-[1160px] md:h-[1159px] z-[5] sm:p-[50px]"
+        className="h-[1560px] md:h-[1159px] z-[5] sm:p-[50px]"
         containerBgProps={
           <>
             <Image
@@ -89,7 +89,7 @@ export function HeroSection({}: Props) {
               <p className="text-white">
                 We aim to provide accurate, reliable, and timely billing
                 solutions, ensuring healthcare providers can focus on patient
-                care.
+                care while we handle administrative tasks.
               </p>
               <div className="flex gap-[30px] flex-wrap">
                 <a className="rounded-full inline" href="#services">

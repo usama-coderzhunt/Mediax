@@ -63,9 +63,8 @@ export const Appointments = ({ currentPage = "other" }: Props) => {
         currentPage === "landingPage" && "appointmentContainer"
       )}
       outerContainerClassName={cn("", currentPage === "other" && "px-0")}
-    
     >
-      {/* <div
+      <div
         className="flex justify-center xl:justify-end relative z-10 py-10 px-0 md:px-10 xl:px-0 w-full xl:w-[430px]"
         id="contact"
       >
@@ -98,8 +97,8 @@ export const Appointments = ({ currentPage = "other" }: Props) => {
             })}
           </ul>
         </div>
-      </div> */}
-      <div id="contact" className="flex-1 rounded-[20px] flex-col xl:flex-row shadow-appointmentForm p-5 md:p-10 flex gap-10">
+      </div>
+      <div className="flex-1 rounded-[20px] flex-col xl:flex-row shadow-appointmentForm p-5 md:p-10 flex gap-10">
         <div className="flex flex-1 flex-col gap-10">
           <Image
             className="flex-1 object-cover w-full rounded-[10px]"

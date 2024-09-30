@@ -20,7 +20,7 @@ export default function page({}: Props) {
         Medical Scribe Services
       </h3>
       <p className="mt-10 font-urbanist font_16_400 text-[#788094]">
-        At Novacures, we provide professional Medical Scribe Services designed to
+        At Mediax, we provide professional Medical Scribe Services designed to
         improve healthcare providers&apos; efficiency by offloading the
         administrative burden of documentation. Our experienced medical scribes
         ensure that your practice maintains accurate and comprehensive patient

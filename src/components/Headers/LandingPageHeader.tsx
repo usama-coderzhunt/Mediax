@@ -49,8 +49,8 @@ const contacts: {
   {
     icon: Email,
     label: "Email",
-    value: "info@novacures.com",
-    link: "mailto:info@novacures.com",
+    value: "info@mediax.com",
+    link: "mailto:info@mediax.com",
   },
 ];
 
@@ -84,7 +84,7 @@ const socialLinks: SocialIconType[] = [
 
 const NavList: { title: string; link: string }[] = [
   {
-    title: "HOME",
+    title: "HOME +",
     link: "/",
   },
   {
@@ -92,7 +92,7 @@ const NavList: { title: string; link: string }[] = [
     link: "#about-us",
   },
   {
-    title: "SERVICES",
+    title: "SERVICES +",
     link: "/services/patient-scheduling",
   },
   // {
@@ -112,7 +112,7 @@ const NavList: { title: string; link: string }[] = [
 export const LandingPageHeader = (props: Props) => {
   return (
     <HeaderWrapper type="landingPage">
-      <div className="h-[150px] shadow-headerShadow flex bg-white [&_*]:whitespace-nowrap rounded-none rounded-b-[40px] overflow-hidden">
+      <div className="h-[150px] shadow-headerShadow flex bg-white [&_*]:whitespace-nowrap rounded-none md:rounded-b-[40px] overflow-hidden">
         <LandingPageHeaderLogo className="hidden 2xl:flex" />
         <div className="flex flex-1 flex-col">
           <TopSocialNav className="flex flex-wrap" />
@@ -206,7 +206,7 @@ const MainNav = () => {
   return (
     <nav className="flex__center pr-[30px] flex-1">
       <LandingPageHeaderLogo className="flex 2xl:hidden" />
-      <ul className="hidden lg:flex gap-10 ml-[30px] mr-auto text-titleColor">
+      <ul className="hidden 2xl:flex gap-10 ml-[30px] mr-auto text-titleColor">
         {NavList.map((nav, idx) => (
           <li
             key={idx}
@@ -239,7 +239,7 @@ const MainNav = () => {
         </div> */}
         <Link href={"/contact"}>
           <Button
-            className="hidden lg:flex uppercase rounded-[10rem] text-sm h-14 w-[200px]"
+            className="hidden 2xl:flex uppercase rounded-[10rem] text-sm h-14 w-[200px]"
             variant="secondary"
           >
             Get In Touch

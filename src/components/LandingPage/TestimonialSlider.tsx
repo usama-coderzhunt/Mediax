@@ -39,8 +39,8 @@ const testimonials: TestimonialType[] = [
       profession: "Cardiologist",
     },
     review: {
-      stars: 3,
-      description: `"The team at novacures has completely transformed our medical billing process. Their expertise in denial management and claim submission has saved us time and significantly increased our revenue. We couldn't be happier!"`,
+      stars: 1,
+      description: `"The team at mediax has completely transformed our medical billing process. Their expertise in denial management and claim submission has saved us time and significantly increased our revenue. We couldn't be happier!"`,
     },
   },
   {
@@ -48,11 +48,11 @@ const testimonials: TestimonialType[] = [
     user: {
       image: male_feedback,
       name: "Dr. Mark Thompson",
-      profession: "Practice Manager",
+      profession: "Pediatrician",
     },
     review: {
-      stars: 4,
-      description: `"Since partnering with novacures, our billing has been seamless. Their professionalism and attention to detail are unmatched. I highly recommend their services to any medical practice looking to optimize their revenue cycle."`,
+      stars: 2,
+      description: `"Since partnering with mediax, our billing has been seamless. Their professionalism and attention to detail are unmatched. I highly recommend their services to any medical practice looking to optimize their revenue cycle."`,
     },
   },
   {
@@ -63,8 +63,8 @@ const testimonials: TestimonialType[] = [
       profession: "Internal Medicine",
     },
     review: {
-      stars: 5,
-      description: `"The accuracy and efficiency of novacures's medical billing services have been a game-changer for our practice. Their team is knowledgeable and always available to help with any issues. We’ve seen a 20% increase in our revenue collection!"`,
+      stars: 3,
+      description: `"The accuracy and efficiency of mediax's medical billing services have been a game-changer for our practice. Their team is knowledgeable and always available to help with any issues. We’ve seen a 20% increase in our revenue collection!"`,
     },
   },
   {
@@ -75,8 +75,8 @@ const testimonials: TestimonialType[] = [
       profession: "Orthopedic Surgeon",
     },
     review: {
-      stars: 3,
-      description: `"Partnering with novacures has streamlined our billing process beyond what we expected. Their commitment to compliance and attention to detail means we can focus on patient care without worrying about our financials."`,
+      stars: 4,
+      description: `"Partnering with mediax has streamlined our billing process beyond what we expected. Their commitment to compliance and attention to detail means we can focus on patient care without worrying about our financials."`,
     },
   },
   {
@@ -84,11 +84,11 @@ const testimonials: TestimonialType[] = [
     user: {
       image: female_feedback,
       name: "Dr. Olivia Parker",
-      profession: "Billing Manager",
+      profession: "Dermatologist",
     },
     review: {
       stars: 5,
-      description: `"Our clinic has benefited immensely from novacures's customized billing solutions. They helped us reduce denied claims and improve cash flow. I highly recommend them to any medical provider."`,
+      description: `"Our clinic has benefited immensely from mediax's customized billing solutions. They helped us reduce denied claims and improve cash flow. I highly recommend them to any medical provider."`,
     },
   },
 ];

@@ -20,7 +20,7 @@ export function CommonFooter({}: Props) {
       <p className="text-white font-urbanist font_16_400 text-center">
         Copyright 2023{" "}
         <Link className="text-themePrimary" href={"/"}>
-        Novacures
+          Mediax
         </Link>
         . All Rights Reserved.
       </p>

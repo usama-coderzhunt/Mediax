@@ -3,6 +3,7 @@ import { CommonFooter } from '@/components/Footers'
 import { LandingPageHeader } from '@/components/Headers'
 import {
   Appointments,
+  Blogs,
   Cta,
   ExtraServices,
   FAQs,
@@ -26,7 +27,7 @@ export default function Home() {
       <Testimonials />
       <FAQs />
       <Cta currentPage='other' />
-      {/* <Blogs /> */}
+      <Blogs />
       <CommonFooter />
     </>
   )

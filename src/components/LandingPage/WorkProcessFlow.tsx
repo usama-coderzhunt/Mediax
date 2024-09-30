@@ -23,7 +23,7 @@ type FlowStepType = {
 const flowSteps: FlowStepType[] = [
   {
     image: wp_patientRegisteration,
-    title: 'Patient Registration',
+    title: 'Patient Registration & Insurance Verification',
     desc: 'We begin by gathering patient details and verifying insurance coverage to ensure a smooth billing process from the start.'
   },
   {
@@ -38,7 +38,7 @@ const flowSteps: FlowStepType[] = [
   },
   {
     image: wp_ongoingCare,
-    title: 'AR and payment posting',
+    title: 'Denial Management & Payment Posting',
     desc: 'Denied claims are reviewed and reprocessed quickly to recover lost revenue and Payments received are posted accurately.'
   }
 ]

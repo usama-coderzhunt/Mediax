@@ -107,7 +107,7 @@ const Tab1 = () => {
     <div className='flex flex-wrap gap-[80px]'>
       <div className='flex flex-col flex-1 basis-[225rem] md:basis-[10rem]'>
         <h3 className='font-urbanist font_36_700 text-center md:text-left mx-auto md:mx-0 max-w-[29rem]'>
-          Benefits by <span className='text-themePrimary'>Novacures</span> Dental Care And Clinic
+          Benefits by <span className='text-themePrimary'>Mediax</span> Dental Care And Clinic
         </h3>
         <p className='font-urbanist font_16_400 mt-10 mb-[60px] text-center md:text-left text-[#788094]'>
           Prompt care for dental emergencies, such as toothaches, broken teeth, or knocked-out
@@ -136,7 +136,7 @@ const Tab2 = () => {
     <div className='flex flex-wrap gap-[80px]'>
       <div className='flex flex-col flex-1 basis-[225rem] md:basis-[10rem]'>
         <h3 className='font-urbanist font_36_700 text-center md:text-left mx-auto md:mx-0 max-w-[29rem]'>
-          Benefits by <span className='text-themePrimary'>Novacures</span> Dental Care And Clinic
+          Benefits by <span className='text-themePrimary'>Mediax</span> Dental Care And Clinic
         </h3>
         <p className='font-urbanist font_16_400 mt-10 mb-[60px] text-center md:text-left text-[#788094]'>
           Prompt care for dental emergencies, such as toothaches, broken teeth, or knocked-out
@@ -165,7 +165,7 @@ const Tab3 = () => {
     <div className='flex flex-wrap gap-[80px]'>
       <div className='flex flex-col flex-1 basis-[225rem] md:basis-[10rem]'>
         <h3 className='font-urbanist font_36_700 text-center md:text-left mx-auto md:mx-0 max-w-[29rem]'>
-          Benefits by <span className='text-themePrimary'>Novacures</span> Dental Care And Clinic
+          Benefits by <span className='text-themePrimary'>Mediax</span> Dental Care And Clinic
         </h3>
         <p className='font-urbanist font_16_400 mt-10 mb-[60px] text-center md:text-left text-[#788094]'>
           Prompt care for dental emergencies, such as toothaches, broken teeth, or knocked-out
