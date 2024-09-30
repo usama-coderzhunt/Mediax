@@ -103,8 +103,8 @@ export default function Page({}: Props) {
   return (
     <>
       <div className='flex w-full flex-col gap-10'>
-        {dynamicBlogsData.map(blog => {
-          return <BlogPost key={blog.title} {...blog} />
+        {dynamicBlogsData.map((blog:any,index) => {
+          return <BlogPost key={index} {...blog} />
         })}
       </div>
       <div className='mt-[60px]'>
