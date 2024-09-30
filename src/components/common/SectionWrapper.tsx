@@ -19,7 +19,7 @@ export const SectionWrapper = ({
   containerBgProps
 }: Props) => {
   return (
-    <section className={twMerge('relative z-10', className)}>
+    <section className={twMerge('z-10 relative', className)}>
       {bgProps}
       <div className={twMerge('outerContainer relative', outerContainerClassName)}>
         {containerBgProps}
