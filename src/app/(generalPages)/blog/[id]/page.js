@@ -35,7 +35,7 @@ export default function BlogDetails({ params }) {
     return (
         <>
 <section className="py-10">
-  <div className="container mx-auto px-4">
+  <div className="container mx-auto px-40">
     <div className="flex flex-wrap">
       <div className="w-full">
         <div className="bg-white shadow-lg rounded-lg p-6">
